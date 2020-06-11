@@ -8,7 +8,7 @@ shinyUI(fluidPage(
 
     # Sidebar with a slider input for number of bins
     sidebarLayout(
-        sidebarPanel(p(strong("Documentation:",style="color:red"), a("User Help Page",href="")),
+        sidebarPanel(p(strong("Documentation:",style="color:red"), a("User Help Page",href="https://rpubs.com/alpha2707/626551")),
             sliderInput("lat",
                         "Latitude",
                         min = -40,
